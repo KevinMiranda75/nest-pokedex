@@ -35,6 +35,23 @@
   docker-compose up -d
   ```
 
+5. Clonar Archivo Template __.env.template__ y renombrar a __.env__
+
+6. Llenar las variables de entorno archivo __.env__
+
+7. Ejecutar en dev
+  ```
+  yarn start:dev
+  ``` 
+
+8. Ejecutar seed pokemones
+  ```
+  http://localhost:3000/api/v1/seed
+  ```
+
+  
+
 ##  Stack Usado
   * MongoDb
   * Nest js
+  * Node Version v20.19.0
